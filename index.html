@@ -5,146 +5,133 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevShola portfolio Website</title>
-    <link rel="stylesheet" 
-    href="https://cdjns.cloudfare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet"
-    href="https://cdjns.cloudfare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfroj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="assets/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdjns.cloudfare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+JP:wght@100;300&display=swap"
+        rel="stylesheet">
 
-    <link href="sans-serif 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" rel="stylesheet">
     <script src="https://kit.fontawesome.com/00a42182ab.js" crossorigin="anonymous"></script>
-    
+
 </head>
+
 <body>
     <header>
-        <div class="logo">
-            <img src="devshola" alt="">
-        </div>
         <button class="nav-toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">My services</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
-                </ul>
-            </nav>
-            </header>
-            <!--introduction-->
-            <section class="intro" id="home">
-              <h1 class="section__title section__title--intro">
-                Hi, I am <strong>Shola Onabanjo</strong>
-                </h1>
-                <p class="section__subtitle section__subtitle--intro">front-end-dev</p>
-                <img src="assets/images/img8.JPG" alt="a picture of Shola" class="intro__img">
-            </section>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--introduction-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Shola Onabanjo</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">front-end-dev</p>
+        <img src="assets/images/img8.JPG" alt="a picture of Shola" class="intro__img">
+    </section>
 
-            <!--My services-->
-            <section class="my-services" id="services">
-                <h2 class="section__title section__title--services">what i do</h2>
-                <div class="services">
-                    <div class="services">
-                        <h3>HTML, CSS, Javascript.</h3>
-                        <p>I have a diverse set of skills, ranging from design, 
-                            to HTML + CSS + Javascript all 
-                            the way to jquery and react.
-                        </p>
-                    </div> 
-                <a href="#work" class="btn">My work</a>
+    <!--My services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I Do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>HTML5, CSS, Javascript, Bootstrap.</h3>
+                <p>I have a diverse set of skills, ranging from design,
+                    to HTML + CSS + Javascript all
+                    the way to jquery.
+                </p>
+            </div>
+            <a href="#work" class="btn">My work</a>
 
-            </section>
+    </section>
 
-            <!-- About Me -->
-            <section class="about me" id="about">
-                <h2 class="section__title section__subtitle--about">Who I am</h2>
-                <p class="section__title section__title--about"></p>
-                
-                <div class="about-me__body">
-                    <h3>Designer and web developer based in NYC</h3>
-                    <p>I am a web developer specialised in frontend development for 
-                        complex and simple scalable web apps, who have a passion for coding and creativity. 
-                        I write about web development on my personal blog, 
-                        you can take a look at my project portfolio to find
-                        out more about my skills. 
-                    </p>
-                </div>
+    <!-- About Me -->
+    <section class="about me" id="about">
+        <h2 class="section__title section__subtitle--about">Who I am</h2>
+        <p class="section__title section__title--about"></p>
 
-                <img src="assets/images/img2.JPG" alt="a picture of shola standing by a car" class="about-me__img">
-            </section>
+        <div class="about-me__body">
+            <h3>Designer and web developer based in NYC</h3>
+            <p>I am a web developer specialised in frontend development for
+                complex and simple scalable web apps, who have a passion for coding and creativity.
+                I write about web development on my personal blog,
+                you can take a look at my project portfolio to find
+                out more about my skills.
+            </p>
+        </div>
 
-            <!--My work-->
+        <img src="assets/images/img2.JPG" alt="a picture of shola standing by a car" class="about-me__img">
+    </section>
 
-            <section class="my-work" id="work">
-                <h2 class="section__title section__title--work">My work</h2>
-                <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+    <!--My work-->
 
-                <div class="portfolio">
-                    <!--portfolio item -->
-                    <a href="#" class="portfolio">
-                        <img src ="assets/images/img3.png" alt="a laptop" class="portfolio__img">
-                        </a>
-                        <!--portfolio item -->
-                    <a href="#" class="portfolio">
-                        <img src ="assets/images/img4.png" alt="a workspace" class="portfolio__img">
-                        </a>
-                        <!--portfolio item -->
-                    <a href="#" class="portfolio">
-                        <img src ="assets/images/img5.png" alt="camera" class="portfolio__img">
-                        </a>
-                        <!--portfolio item -->
-                    <a href="#" class="portfolio">
-                        <img src ="assets/images/img6.png" alt="a laptop" class="portfolio__img">
-                        </a>
-                        <!--portfolio item -->
-                        <img src ="assets/images/img9.png" alt="a laptop" class="portfolio__img">
-                        </a>
-                        <!--portfolio item -->
-                        </div>
-                        </section>
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
 
-                        <!--footer-->
+        <div class="portfolio">
+            <!--portfolio item -->
+            <a href="#" class="portfolio">
+                <img src="./assets/images/img3.png" alt="a laptop" class="portfolio__img">
+            </a>
+            <!--portfolio item -->
+            <a href="#" class="portfolio">
+                <img src="assets/images/img4.png" alt="a workspace" class="portfolio__img">
+            </a>
+            <!--portfolio item -->
+            <a href="#" class="portfolio">
+                <img src="assets/images/img5.png" alt="camera" class="portfolio__img">
+            </a>
+            <!--portfolio item -->
+            <a href="#" class="portfolio">
+                <img src="assets/images/img6.png" alt="a laptop" class="portfolio__img">
+            </a>
+        
+        </div>
+    </section>
+
+    <!--footer-->
 
 
-                        <footer class="footer">
-                            <a href="mailto:sholaonabanjo13@gmail.com" class="footer__link">sholaonabanjo13@gmail.com</a>
-                            <ul class="social-list">
-                                <li class="social-list__item">
-                                    <a class="social-list__link"
-                                href="https://codepan.fo">
-                                <i class="fab fa-github"></i>
-                                </a>
-                            </li>
-                                <li class="social-list__item">
-                                    <a class="social-list__link"
-                                 href="https://codepan.fo">
-                                 <i class="fab fa-twitter-square"></i>
-                                </a>
-                            </li>
-                                <li class="social-list__item">
-                                    <a class="social-list__link"
-                                href="https://codepan.fo">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                        </li>
-                        
-                            </ul>
-                        </footer>
+    <footer class="footer">
+        <a href="mailto:sholaonabanjo13@gmail.com" class="footer__link">sholaonabanjo13@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/sholz13">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com/sholaveev">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="www.linkedin.com/in/shola-onabanjo">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            <li class="social-list__item">
+                <a class="social-list__link"
+                    href="https://drive.google.com/file/d/1MpOCbqGjAFrk09SxCR0dkWWHKm1e7SF5/view?usp=sharing">
+                    <i class="fa-solid fa-file"></i>
+                </a>
+            </li>
 
-                        <script src="assets/index.js"></script>
-                        </body>
-                        </html>
+        </ul>
+    </footer>
 
+    <script src="assets/index.js"></script>
+</body>
 
-
-                
-              
-                
-            
-               
-    
-            
-                
-          
+</html>
