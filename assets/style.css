@@ -42,8 +42,8 @@ html {
 }
 
 body {
-    background: oldlace;
-    color: var(--clr-text);
+    background:var(--clr-text);
+    color: var(--clr-bg);
     margin: 0;
     font-family:sans-serif 'Trebuchet MS' 'Lucida Sans Unicode';
     font-size: var(--fs-body);
@@ -219,7 +219,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background: var(--clr-text);
+    background: var(--clr-bg);
     width: 2em;
     height: 3px;
     border-radius: 1em;
@@ -384,6 +384,7 @@ header {
         width: 244px;
         height: 406px;
         opacity: 1;
+        transform: translate(0px, 0px);
     }
 }
 
